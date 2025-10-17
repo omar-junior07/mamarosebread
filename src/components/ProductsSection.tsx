@@ -8,34 +8,29 @@ import ryeImage from "@/assets/rye.jpg";
 
 const breads = [
   {
-    name: "Sourdough",
-    description: "Classic artisan sourdough with a crispy crust and tangy flavor",
+    name: "Sugar Bread",
+    description: "Sweet, fluffy loaf with a delicate golden crust",
     image: sourdoughImage,
   },
   {
-    name: "French Baguette",
-    description: "Traditional baguette with a golden, crispy exterior",
+    name: "Butter Bread",
+    description: "Rich and soft bread with a buttery, melt-in-your-mouth texture",
     image: baguetteImage,
   },
   {
-    name: "Whole Grain",
-    description: "Hearty whole grain loaf packed with seeds and nutrients",
+    name: "Wheat Bread",
+    description: "Wholesome wheat loaf perfect for everyday enjoyment",
     image: wholegrainImage,
   },
   {
-    name: "Challah",
-    description: "Sweet, braided bread perfect for special occasions",
+    name: "Hot Oven",
+    description: "Fresh from the oven, warm and aromatic perfection",
     image: challahImage,
   },
   {
-    name: "Ciabatta",
-    description: "Italian classic with an airy, open crumb structure",
+    name: "A1 Bread",
+    description: "Our signature premium loaf, simply the best",
     image: ciabattaImage,
-  },
-  {
-    name: "Rye Bread",
-    description: "Dense, flavorful rye with caraway seeds",
-    image: ryeImage,
   },
 ];
 
