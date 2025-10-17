@@ -36,7 +36,7 @@ const breads = [
 
 const ProductsSection = () => {
   return (
-    <section className="py-20 px-4 bg-gradient-to-b from-background to-secondary/30">
+    <section id="products" className="py-20 px-4 bg-gradient-to-b from-background to-secondary/30">
       <div className="container mx-auto">
         <div className="text-center mb-16">
           <h2 className="font-playfair text-4xl md:text-5xl font-bold text-foreground mb-4">

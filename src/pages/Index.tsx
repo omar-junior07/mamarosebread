@@ -5,7 +5,7 @@ import ContactSection from "@/components/ContactSection";
 
 const Index = () => {
   return (
-    <main>
+    <main className="scroll-smooth">
       <Hero />
       <ProductsSection />
       <AboutSection />
