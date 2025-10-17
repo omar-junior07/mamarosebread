@@ -21,8 +21,8 @@ const ContactSection = () => {
             </div>
             <h3 className="font-semibold text-foreground mb-2">Phone</h3>
             <p className="text-muted-foreground">Call us anytime</p>
-            <a href="tel:+1234567890" className="text-primary hover:text-accent transition-colors mt-2">
-              +1 (234) 567-890
+            <a href="tel:0201383838" className="text-primary hover:text-accent transition-colors mt-2">
+              0201383838
             </a>
           </div>
           
@@ -32,8 +32,8 @@ const ContactSection = () => {
             </div>
             <h3 className="font-semibold text-foreground mb-2">Email</h3>
             <p className="text-muted-foreground">Send us a message</p>
-            <a href="mailto:hello@artisanbread.com" className="text-primary hover:text-accent transition-colors mt-2">
-              hello@artisanbread.com
+            <a href="mailto:johnkyei070@gmail.com" className="text-primary hover:text-accent transition-colors mt-2">
+              johnkyei070@gmail.com
             </a>
           </div>
           
