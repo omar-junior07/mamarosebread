@@ -43,7 +43,7 @@ const ContactSection = () => {
             </div>
             <h3 className="font-semibold text-foreground mb-2">Location</h3>
             <p className="text-muted-foreground">Visit our bakery</p>
-            <p className="text-primary mt-2">Your Local Bakery</p>
+            <p className="text-primary mt-2">Anyinam Taxi Station</p>
           </div>
         </div>
         

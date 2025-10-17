@@ -34,8 +34,9 @@ const Hero = () => {
             size="lg" 
             variant="outline"
             className="border-2 border-white text-white hover:bg-white hover:text-foreground font-semibold px-8 transition-all duration-300"
+            asChild
           >
-            Contact Us
+            <a href="tel:0201383838">Contact Us</a>
           </Button>
         </div>
       </div>
