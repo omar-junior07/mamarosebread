@@ -15,7 +15,7 @@ const Hero = () => {
       
       <div className="container relative z-10 text-center px-4 py-20">
         <h1 className="font-playfair text-5xl md:text-7xl font-bold text-white mb-6 animate-in fade-in slide-in-from-bottom-4 duration-1000">
-          Artisan Bread
+          Mama Rose
           <span className="block text-3xl md:text-5xl mt-4 text-primary-foreground/90">
             Baked with Love
           </span>

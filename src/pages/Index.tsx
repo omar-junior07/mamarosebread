@@ -12,7 +12,7 @@ const Index = () => {
       <ContactSection />
       <footer className="bg-foreground text-background py-8 text-center">
         <p className="text-sm">
-          © {new Date().getFullYear()} Artisan Bread. Baked with ❤️
+          © {new Date().getFullYear()} Mama Rose. Baked with ❤️
         </p>
       </footer>
     </main>
