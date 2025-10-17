@@ -32,7 +32,7 @@ const ContactSection = () => {
             </div>
             <h3 className="font-semibold text-foreground mb-2">Email</h3>
             <p className="text-muted-foreground">Send us a message</p>
-            <a href="mailto:johnkyei070@gmail.com" className="text-primary hover:text-accent transition-colors mt-2">
+            <a href="https://mail.google.com/mail/?view=cm&to=johnkyei070@gmail.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-accent transition-colors mt-2">
               johnkyei070@gmail.com
             </a>
           </div>
@@ -51,8 +51,11 @@ const ContactSection = () => {
           <Button 
             size="lg" 
             className="bg-primary hover:bg-accent text-white font-semibold px-8 transition-all duration-300 shadow-lg hover:shadow-xl"
+            asChild
           >
-            Place an Order
+            <a href="https://wa.me/0201383838" target="_blank" rel="noopener noreferrer">
+              Place an Order
+            </a>
           </Button>
         </div>
       </div>
