@@ -37,14 +37,19 @@ const ContactSection = () => {
             </a>
           </div>
           
-          <div className="flex flex-col items-center text-center p-6 rounded-lg bg-card hover:shadow-lg transition-shadow duration-300">
+          <a 
+            href="https://www.google.com/maps/dir/?api=1&destination=Anyinam+Taxi+Station" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="flex flex-col items-center text-center p-6 rounded-lg bg-card hover:shadow-lg transition-shadow duration-300 cursor-pointer"
+          >
             <div className="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center mb-4">
               <MapPin className="w-6 h-6 text-primary" />
             </div>
             <h3 className="font-semibold text-foreground mb-2">Location</h3>
             <p className="text-muted-foreground">Visit our bakery</p>
             <p className="text-primary mt-2">Anyinam Taxi Station</p>
-          </div>
+          </a>
         </div>
         
         <div className="text-center">
