@@ -38,7 +38,7 @@ const ContactSection = () => {
           </div>
           
           <a 
-            href="https://www.google.com/maps/dir/?api=1&destination=Anyinam+Taxi+Station" 
+            href="https://maps.google.com/?q=Anyinam+Taxi+Station" 
             target="_blank" 
             rel="noopener noreferrer"
             className="flex flex-col items-center text-center p-6 rounded-lg bg-card hover:shadow-lg transition-shadow duration-300 cursor-pointer"
