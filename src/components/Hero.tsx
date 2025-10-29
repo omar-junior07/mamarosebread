@@ -27,16 +27,16 @@ const Hero = () => {
           <Button 
             size="lg" 
             className="bg-primary hover:bg-accent text-white font-semibold px-8 transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105"
-            asChild
           >
-            <a href="#products">View Collection</a>
+            View Collection
           </Button>
           <Button 
             size="lg" 
-            className="bg-primary hover:bg-accent text-white font-semibold px-8 transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105"
+            variant="outline"
+            className="border-2 border-white text-white hover:bg-white hover:text-foreground font-semibold px-8 transition-all duration-300"
             asChild
           >
-            <a href="#contact">Contact Us</a>
+            <a href="#products">Contact Us</a>
           </Button>
         </div>
       </div>
