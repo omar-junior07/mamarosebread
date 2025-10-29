@@ -21,8 +21,8 @@ const ContactSection = () => {
             </div>
             <h3 className="font-semibold text-foreground mb-2">Phone</h3>
             <p className="text-muted-foreground">Call us anytime</p>
-            <a href="tel:0201382828" className="text-primary hover:text-accent transition-colors mt-2">
-              0201382828
+            <a href="tel:0276462728" className="text-primary hover:text-accent transition-colors mt-2">
+              0276462728
             </a>
           </div>
           
@@ -32,19 +32,24 @@ const ContactSection = () => {
             </div>
             <h3 className="font-semibold text-foreground mb-2">Email</h3>
             <p className="text-muted-foreground">Send us a message</p>
-            <a href="https://mail.google.com/mail/?view=cm&to=johnkyei070@gmail.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-accent transition-colors mt-2">
-              johnkyei070@gmail.com
+            <a href="https://mail.google.com/mail/?view=cm&to=rose.baah070@gmail.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-accent transition-colors mt-2">
+              rose.baah070@gmail.com
             </a>
           </div>
           
-          <div className="flex flex-col items-center text-center p-6 rounded-lg bg-card hover:shadow-lg transition-shadow duration-300">
+          <a 
+            href="https://maps.google.com/?q=Anyinam+Taxi+Station" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="flex flex-col items-center text-center p-6 rounded-lg bg-card hover:shadow-lg transition-shadow duration-300 cursor-pointer"
+          >
             <div className="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center mb-4">
               <MapPin className="w-6 h-6 text-primary" />
             </div>
             <h3 className="font-semibold text-foreground mb-2">Location</h3>
             <p className="text-muted-foreground">Visit our bakery</p>
             <p className="text-primary mt-2">Anyinam Taxi Station</p>
-          </div>
+          </a>
         </div>
         
         <div className="text-center">
@@ -53,7 +58,7 @@ const ContactSection = () => {
             className="bg-primary hover:bg-accent text-white font-semibold px-8 transition-all duration-300 shadow-lg hover:shadow-xl"
             asChild
           >
-            <a href="https://wa.me/233201382828?text=Hello,%20I%20want%20to%20place%20an%20order." target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/233276462728?text=Hello,%20I%20want%20to%20place%20an%20order." target="_blank" rel="noopener noreferrer">
               Place an Order
             </a>
           </Button>
