@@ -53,7 +53,7 @@ const ContactSection = () => {
             className="bg-primary hover:bg-accent text-white font-semibold px-8 transition-all duration-300 shadow-lg hover:shadow-xl"
             asChild
           >
-            <a href="https://wa.me/0201382828" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/233201382828?text=Hello,%20I%20want%20to%20place%20an%20order." target="_blank" rel="noopener noreferrer">
               Place an Order
             </a>
           </Button>
