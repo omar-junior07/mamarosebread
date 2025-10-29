@@ -27,8 +27,9 @@ const Hero = () => {
           <Button 
             size="lg" 
             className="bg-primary hover:bg-accent text-white font-semibold px-8 transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105"
+            asChild
           >
-            View Collection
+            <a href="#products">View Collection</a>
           </Button>
           <Button 
             size="lg" 
@@ -36,7 +37,7 @@ const Hero = () => {
             className="border-2 border-white text-white hover:bg-white hover:text-foreground font-semibold px-8 transition-all duration-300"
             asChild
           >
-            <a href="#products">Contact Us</a>
+            <a href="tel:0201383838">Contact Us</a>
           </Button>
         </div>
       </div>
