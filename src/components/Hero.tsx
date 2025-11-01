@@ -27,16 +27,20 @@ const Hero = () => {
           <Button 
             size="lg" 
             className="bg-primary hover:bg-accent text-white font-semibold px-8 transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105"
-            asChild
+            onClick={() => {
+              document.getElementById('products')?.scrollIntoView({ behavior: 'smooth' });
+            }}
           >
-            <a href="#products">View Collection</a>
+            View Collection
           </Button>
           <Button 
             size="lg" 
             className="bg-primary hover:bg-accent text-white font-semibold px-8 transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105"
-            asChild
+            onClick={() => {
+              document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+            }}
           >
-            <a href="#contact">Contact Us</a>
+            Contact Us
           </Button>
         </div>
       </div>
